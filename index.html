@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elevator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="elevator">
+      <h1 class="title">Elevator</h1>
+      <div class="building">
+        <div class="floar level-2">
+          <div class="board">Level 2</div>
+          <div class="rope"></div>
+        </div>
+        <div class="floar level-1">
+          <div class="board">Level 1</div>
+          <div class="rope"></div>
+        </div>
+        <div class="floar level-0">
+          <div class="board">Level 0</div>
+          <div class="rope"></div>
+        </div>
+        <div class="imageContainer">
+          <img src="./elevator.jpg" alt="elevator" />
+          <div class="controls">
+            <div class="btn">
+              <i class="fas fa-arrow-up up disabled"></i>
+            </div>
+            <div class="btn">
+              <i class="fas fa-arrow-down down"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <audio src="./elevator-sound.mp3"></audio>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
